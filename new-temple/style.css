@@ -11,7 +11,7 @@ h1{
 
 /*ID Selector*/
 #status{
-    font-family: sans-serif;
+    color: saddlebrown;
 }
 
 img{
@@ -30,4 +30,22 @@ img{
     color: saddlebrown;
     font-size: 1.2rem;
     font-weight: bold;
+}
+/*Group Selectror*/
+h1, .subtitle{
+    font-family:serif;
+}
+/*Pseudo Class Selectors*/
+a{
+    text-decoration:none;
+    color: rgb(163, 157, 111);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 600px;
+    margin: auto;
 }
