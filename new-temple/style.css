@@ -49,3 +49,10 @@ main{
     width: 600px;
     margin: auto;
 }
+
+.padding{
+    padding-top:24px;
+    padding-bottom:24px;
+}
+
+}
