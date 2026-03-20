@@ -19,10 +19,21 @@ nav{text-align:right;
 header{
     display:flex;
     justify-content:space-between;
+    background-color:white;
+    border-bottom: 1px solid black;
+    padding:10px 5px;
+}
+
+
+nav{
+    display:flex;
+    justify-content:flex-end;
+    gap:1em;
+
 }
 nav{
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     gap:1em;
 
 }
