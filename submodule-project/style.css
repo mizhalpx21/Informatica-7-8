@@ -1,0 +1,12 @@
+.standout-box{
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: "Merriweather", serif;}
+
+}
+.subtitle{
+    text-transform: uppercase;
+    color: saddlebrown;
+    font-size: 1.2rem;
+    font-weight: bold;
