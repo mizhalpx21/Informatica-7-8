@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+a:hover{
+    text-decoration: underline;
+}
+.purple{
+    color: red;
+
+}
+.padding{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#name{
+    width: 150px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    color:lightgray;
+    margin:5px;
+    padding:10px;
+    border-top:1px solid whitesmoke;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+.standout-box{
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: "Merriweather", serif;
+    width:500px;
+
+}
+
+}
+.subtitle{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
