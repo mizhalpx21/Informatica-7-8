@@ -3,8 +3,10 @@ header{
     justify-content: space-between;
     border-bottom: 1px solid darkgrey;
     padding: 10px;
-    position:fixed;
     background-color:white;
+}
+h1{
+    color: white;
 }
 
 nav{
@@ -13,7 +15,7 @@ nav{
 }
 a{
     text-decoration: none;
-    color: black
+    color: black;
 }
 a:hover{
     text-decoration: underline;
@@ -45,7 +47,7 @@ footer {
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
-    position:fixed;
+
     bottom:0px;
     left:0px;
     right:0px;
@@ -73,4 +75,11 @@ body{
     display: block;
 
 
+}
+
+.hero-section{
+background:url("https://imgproxy.divecdn.com/949SwVddB0Lfh6yGLp1ffWFfQLwN2nMVz96I3NtCAXY/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDY0MjA0NTk4X2NyZWRpdC1SYXR0YW5rdW5fVGhvbmdidW5fY29sbGVjdGlvbi1HZXR0eV9JbWFnZXNfUGx1cy5qcGc=.webp");
+background-size: cover;
+background-position: center center;
+height:500px;
 }
