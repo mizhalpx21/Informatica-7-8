@@ -1,0 +1,29 @@
+button{
+    height: 200px;
+    background-color: #FF10F0;
+    box-shadow:
+    0 0 5px #fff,
+    0 0 10px #ff10f0,
+    0 0 20px #ff10f0,
+    0 0 40px #ff10f0;
+    font-size:2rem;
+    border-radius:5px;
+}
+
+body{
+    background-color:black;
+    text-align: center;
+}
+h1{
+    font-size:5rem;
+}
+
+h1{
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff;
+}
