@@ -22,7 +22,14 @@ function favoriteCompany(){
     console.log(fundingAmount)
 }
 
-funtion calculations(){
-    let positive=5;
+let positive=5;
+function calculations(){
+    positive= positive*2;
+    positive= positive + 10;
+    positive= positive/2;
+    positive= positive - 5;
+    alert(positive)
+
+
 
 }
