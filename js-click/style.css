@@ -7,6 +7,13 @@ button{
     0 0 20px #ff10f0,
     0 0 40px #ff10f0;
     font-size:2rem;
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff;
     border-radius:5px;
 }
 
