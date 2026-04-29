@@ -9,6 +9,12 @@ function coin(){
     } else{
         subtitle.innerHTML ="Tails";
         subtitle.style.color ="white";
+}
+     let result = document.querySelector("h3");
+     if (user == heads){
+     }
+
+
 
 }
-}
+
