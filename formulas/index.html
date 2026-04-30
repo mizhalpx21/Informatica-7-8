@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IF and DOM Manipulation</title>
+    <style>
+        #status {
+            font-size: 18px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript IF + DOM Example</h1>
+    <p id="status">Click the button to check the condition.</p>
+    <button onclick="checkCondition()">Check Condition</button>
+
+    <script>
+        function checkCondition() {
+            // Example variable (could come from user input, API, etc.)
+            let number = Math.floor(Math.random() * 10); // Random number 0-9
+
+            // Get the DOM element
+            let statusElement = document.getElementById("status");
+
+            // Use IF to decide what to display
+            if (number >= 5) {
+                statusElement.textContent = `Number ${number} is greater than or equal to 5 ✅`;
+                statusElement.style.color = "green";
+                statusElement.style.backgroundColor = "#e0ffe0";
+            } else {
+                statusElement.textContent = `Number ${number} is less than 5 ❌`;
+                statusElement.style.color = "red";
+                statusElement.style.backgroundColor = "#ffe0e0";
+            }
+        }
+    </script>
+
+</body>
+</html>
