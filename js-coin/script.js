@@ -13,7 +13,7 @@ function coin(userGuess){
 
      let coinResult = subtitle.innerHTML;
      let result = document.querySelector("h3");
-     if (userGuess=== coinResult){
+     if (userGuess === coinResult){
         result.innerHTML = "You won!";
      } else{
         result.innerHTML ="You lost, try again!";
