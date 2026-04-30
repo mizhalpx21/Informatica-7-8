@@ -1,4 +1,4 @@
-function coin(){
+function coin(userGuess){
     let randomNum = Math.random();
     console.log(randomNum)
 
@@ -10,8 +10,13 @@ function coin(){
         subtitle.innerHTML ="Tails";
         subtitle.style.color ="white";
 }
+
+     let coinResult = subtitle.innerHTML;
      let result = document.querySelector("h3");
-     if (user == heads){
+     if (userGuess=== coinResult){
+        result.innerHTML = "You won!";
+     } else{
+        result.innerHTML ="You lost, try again!";
      }
 
 
