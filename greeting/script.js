@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let hour = now.getHours();
         if (hour < 12) {
             document.querySelector("#time").innerHTML = "Good morning!";
-        } else if (hour < 18>){
+        } else if (hour < 18){
             document.querySelector("#time").innerHTML = "Good afternoon!";
         } else{
             document.querySelector("#time").innerHTML = "Good night!";
@@ -22,18 +22,18 @@ document.addEventListener("DOMContentLoaded", function(){
         console.log("Today is " + day);
 
         if(day == 0){
-            document.querySelector("#day").innerHTML = ""Today is Sunday";
-        } else if (day == 1>){
+            document.querySelector("#day").innerHTML = "Today is Sunday";
+        } else if (day == 1){
             document.querySelector("#day").innerHTML = "Today is Monday";
-        } else if (day == 2>){
+        } else if (day == 2){
             document.querySelector("#day").innerHTML = "Today is Tuesday";
-        } else if (day == 3>){
+        } else if (day == 3){
             document.querySelector("#day").innerHTML = "Today is Wednesday";
-        } else if (day == 4>){
+        } else if (day == 4){
             document.querySelector("#day").innerHTML = "Today is Thursday";
-        } else if (day == 5>){
+        } else if (day == 5){
             document.querySelector("#day").innerHTML = "Today is Friday";
-        } else if(day == 6>){
+        } else if(day == 6){
             document.querySelector("#day").innerHTML = "Today is Saturday";
 
 
