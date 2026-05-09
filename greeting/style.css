@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd6e8;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: #555555;
+}
+
+h3 {
+    color: purple;
+}
+
