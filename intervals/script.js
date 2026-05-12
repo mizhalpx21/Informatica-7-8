@@ -1,16 +1,30 @@
-document.addEventListener("DOMContentLoaded", function(){
-    const alarm = new Audio("sounds/alarm.mp3");
+let time;
+let timer;
 
-let counter = 60;
+function startTimer(seconds) {
 
-function count() {
-    counter--;
-    document.querySelector('h1').innerHTML = counter;
+    clearInterval(timer);
+
+    time = seconds;
+
+    timer = setInterval(function () {
+
+        let minutes = Math.floor(time / 60);
+        let secondsLeft = time % 60;
+
+        if (secondsLeft < 10) {
+            secondsLeft = "0" + secondsLeft;
+        }
+
+        document.getElementById("timer").innerHTML =
+            minutes + ":" + secondsLeft;
+
+        time--;
+
+        if (time < 0) {
+            clearInterval(timer);
+            document.getElementById("alarm").play();
+        }
+
+    }, 1000);
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('button').onclick = function(){
-    setInterval(count, 1000);
-    document.querySelector("button").disabled=true;
-    };
-});

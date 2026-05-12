@@ -6,12 +6,17 @@
 		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-        <div><div id="alarm" class="instrument">
-            <h1>1:00</h1>
+        <h1 id="timer">00:00</h1>
 
-        </div>
-		<h1>1:00</h1>
-        <button>Start counting</button>
+
+        <button onclick="startTimer(60)">1 Minute</button>
+        <button onclick="startTimer(300)">5 Minutes</button>
+        <button onclick="startTimer(600)">10 Minutes</button>
+
+
+	<audio id="alarm" src="alarm.mp3"></audio>
+
+
 
 	</body>
 </html>
