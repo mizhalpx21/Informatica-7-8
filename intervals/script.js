@@ -1,30 +1,12 @@
-let time;
-let timer;
+let counter = 0;
 
-function startTimer(seconds) {
-
-    clearInterval(timer);
-
-    time = seconds;
-
-    timer = setInterval(function () {
-
-        let minutes = Math.floor(time / 60);
-        let secondsLeft = time % 60;
-
-        if (secondsLeft < 10) {
-            secondsLeft = "0" + secondsLeft;
-        }
-
-        document.getElementById("timer").innerHTML =
-            minutes + ":" + secondsLeft;
-
-        time--;
-
-        if (time < 0) {
-            clearInterval(timer);
-            document.getElementById("alarm").play();
-        }
-
-    }, 1000);
+function count() {
+    counter--;
+    document.querySelector('h1').innerHTML = counter;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('button').onclick = function(){
+    setInterval(count, 1000);
+    };
+});
